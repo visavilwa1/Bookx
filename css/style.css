@@ -43,3 +43,26 @@ header {
   z-index: 10001;
   display: none;
 }
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-size: var(--p-font);
+  color: var(--text-color);
+  font-weight: 600;
+  padding: 10px 15px;
+  margin: 0 10px;
+  transition: all 0.4s ease;
+}
+.navbar a:hover {
+  background: var(--text-color);
+  color: #fff;
+}
+.icons {
+  display: inline-block;
+}
+.icons i {
+  color: var(--text-color);
+  font-size: 24px;
+  margin-left: 15px;
+}
