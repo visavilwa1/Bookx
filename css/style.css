@@ -29,12 +29,17 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 25px 8%;
-  transition: .3s;
+  transition: 0.3s;
 }
 .logo {
   color: var(--text-color);
-  font-size: var(--main-font)px;
+  font-size: var(--main-font) px;
   font-weight: 600;
   line-height: 0.8;
 }
-#menu
+#menu-icon {
+  font-size: 38px;
+  color: var(--text-color);
+  z-index: 10001;
+  display: none;
+}
