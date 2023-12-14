@@ -1,6 +1,8 @@
+
 let menu = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
+document.querySelectorAll('.navbar a').forEach(link => {
 menu.onclick = () => {
   menu.classList.toggle("bx-x");
   navbar.classList.toggle("active");
