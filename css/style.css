@@ -33,7 +33,7 @@ header {
 }
 .logo {
   color: #f11c87b9;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   font-family: "Cabin Sketch", sans-serif;
   line-height: 0.8;
@@ -75,12 +75,12 @@ section {
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(130px, auto));
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   text-align: center;
   cursor: pointer;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .box {
@@ -105,7 +105,7 @@ section {
 
 .box h4 {
   padding: 15px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Dancing script", cursive;
   font-weight: bold;
  
